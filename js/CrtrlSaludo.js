@@ -6,8 +6,9 @@ function muestra(){
     var     nombre =forma["nombre"].value.trim(),
             boleta =forma["boleta"].value.trim(),
             grupo =forma["grupo"].value.trim(),
-            materia= forma["materia"].value.trim();
+            materia= forma["materia"].value.trim()
+            fecha=forma["fecha"].value.trim();
     salida.textContent="Eres: "+nombre+" Boleta: "+ boleta+ " Grupo: "+grupo
-        +" Materia: "+materia;
+        +" Materia: "+materia+ " Fecha: "+fecha ;
 
 }
